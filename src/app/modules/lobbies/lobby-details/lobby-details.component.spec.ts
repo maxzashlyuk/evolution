@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoComponent } from './info.component';
+import { LobbyDetailsComponent } from './lobby-details.component';
 
-describe('InfoComponent', () => {
-  let component: InfoComponent;
-  let fixture: ComponentFixture<InfoComponent>;
+describe('LobbyDetailsComponent', () => {
+  let component: LobbyDetailsComponent;
+  let fixture: ComponentFixture<LobbyDetailsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [InfoComponent]
+      imports: [LobbyDetailsComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(InfoComponent);
+    fixture = TestBed.createComponent(LobbyDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

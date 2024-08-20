@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './lobby.component.scss'
 })
 export class LobbyComponent {
+
 }
